@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 50vh;
+    background-color: #000;
+    margin: 20vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px #000;
+}
+
+.container-itens {
+    position: absolute;
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.item {
+    width: 50vw;
+    height: 50vh;
+}
+
+.item img {
+    width: 50vw;
+    height: 50vh;
+}
+
+.reagir-botao {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    font: bold 10px sans-serif;
+    z-index: 1;
+}
